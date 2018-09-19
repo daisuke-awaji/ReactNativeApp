@@ -30,13 +30,6 @@ export default class App extends Component<Props> {
   }
 }
 
-// @flow
-function square(n: number): number {
-  return n * n;
-}
-
-square("2")
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
